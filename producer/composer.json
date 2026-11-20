@@ -1,0 +1,19 @@
+{
+    "name": "student/rabbitmq-producer",
+    "description": "RabbitMQ producer (учебный проект)",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "PhpAmqplib\\PhpAmqplib\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "bpo1"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php-amqplib/php-amqplib": "^3.7"
+    }
+}
